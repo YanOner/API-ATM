@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/atm")
+@RequestMapping("/api/v1/atm")
 public class AtmController {
 
     @Autowired
